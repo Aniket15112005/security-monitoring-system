@@ -54,6 +54,10 @@ Wazuh SIEM successfully centralized and monitored:
 
 Real-time security alerts were generated successfully.
 
+
+| INC013 | High | Real-time alert generated for failed SSH login | alert_system.sh | Telegram notification sent |
+| INC014 | High | Telegram security notification triggered | telegram.sh | Alert automation verified |
+| INC015 | High | Honeypot attacker interaction detected | OpenCanary | Suspicious activity logged |
 ---
 
 ## Honeypot Activity

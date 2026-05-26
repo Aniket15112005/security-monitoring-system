@@ -123,6 +123,23 @@ Security events generated immediate alerts and incident notifications.
 
 ---
 
+# Alert Generation System
+
+A real-time security alert generation system was implemented using Bash scripting and Telegram integration.
+
+## Features
+- Continuous authentication monitoring
+- Failed SSH login detection
+- Real-time Telegram notifications
+- Automated security alerting
+- Live monitoring of auth.log
+
+## Script Used
+- alert_system.sh
+- telegram.sh
+
+The system automatically detects suspicious SSH authentication attempts and generates immediate security alerts.
+
 # Telegram Alert Automation
 
 A custom Bash script (`telegram.sh`) was developed to send security alerts directly to Telegram.
